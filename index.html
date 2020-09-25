@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>1</title>
+<link rel="stylesheet" href="css/BeerSlider.css">
+<!-- Bottom of body -->
+<script src="js/BeerSlider.js"></script>
+<style>
+* {
+	font-family: 'Microsoft Yahei';
+}
+body{background-color: #ffffff}
+.m {
+	width: 782px;
+	margin-left: auto;
+	margin-right: auto;
+}
+</style>
+</head>
+
+<body>
+<div class="m">
+	<div id="slider" class="beer-slider" data-beer-label="2019年淮河流域水质分布"> 
+		<img src="images/aa.png" alt="">
+		<div class="beer-reveal" data-beer-label="2007年"> 
+		<img src="images/bb.png" alt=""> 
+		</div>
+	</div>
+</div>
+<script>
+    new BeerSlider(document.getElementById('slider'));
+	new BeerSlider(document.getElementById('slider2'));
+  </script>
+</body>
+</html>
